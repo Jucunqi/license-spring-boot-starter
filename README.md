@@ -18,19 +18,19 @@
 对应配置会有idea提示
 ```yml
 # 是否启用license验证
-yy-license.enable-license=true
+license.enable-license=true
 # 证书主题
-yy-license.subject=ocr
+license.subject=ocr
 # 证书别名
-yy-license.public-alias=publicCert
+license.public-alias=publicCert
 # 证书密码，与创建的时候保持一致
-yy-license.store-pass=your pass
+license.store-pass=your pass
 # 证书路径，确保路径真实存在
-yy-license.license-path=your license path
+license.license-path=your license path
 # 证书公钥路径
-yy-license.public-keys-store-path=your keys path
+license.public-keys-store-path=your keys path
 ```
-3. 如果设置`yy-license.enable-license=true`,那么项目启动时就会校验证书
+3. 如果设置`license.enable-license=true`,那么项目启动时就会校验证书
 
 4. 同时本服务还提供了一个注解以及对应的aop拦截方法
 
