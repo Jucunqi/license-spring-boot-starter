@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.jcq.license.autoconfigure.LicenseAutoConfiguration,\
+com.jcq.license.verify.aop.RequireLicenseAspect

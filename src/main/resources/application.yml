@@ -1,0 +1,7 @@
+license:
+  enable-license: true
+  subject: your subject
+  public-alias: your alias
+  store-pass: your pass
+  license-path: your license path
+  public-keys-store-path: your keys store path
